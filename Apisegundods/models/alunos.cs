@@ -7,8 +7,8 @@
         public string RMA { get; set; }
         public string pai { get; set; }
         public string mae { get; set; }
-        public Escola Escola { get; set; }
-        public Professor Professor { get; set; }
+        public int EscolaID { get; set; }
+        public int ProfessorID { get; set; }
 
 
     }
